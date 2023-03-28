@@ -1,0 +1,31 @@
+1. redux
+2. redux-toolkit
+3. redux-persist
+
+terminology
+-------------
+
+store - state management
+action -  CRUD operation - payload - information
+reducer - what to add - function - current state and action type - return new state
+dispatch - state change
+
+Steps
+-----
+
+1. Define a store
+2. Define the actions
+3. Create a reducer
+4. setup a store
+
+
+methods
+----------
+
+getState() - return the current state
+dispatch() - state has been updated - dispatches an action
+subscribe() - reducer return the state
+
+
+Redux -tool for state management
+All the states in 1 place-  store - global object
